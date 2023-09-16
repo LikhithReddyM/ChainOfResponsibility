@@ -5,3 +5,8 @@
 
 # Design
 This project defines a student leave application handler. The handler notes down the student's name and no of days of leave requested. The handler either approves the request or passes it to the following handler in the chain. The request is suspended if the request cannot be processed by the last handler of the chain. Here, Professor, HeadOfDepartment and DeanAcademics are the handlers in order in the chain.
+
+![Class diagram](ClassDiagram.png)
+
+# Environment
+The project builds and runs with Visual Studio Community 2022 when the required workloads are installed.
